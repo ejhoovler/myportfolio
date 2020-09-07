@@ -1,7 +1,7 @@
 {
-    "title": "One Page Wonder",
-    "name": "startbootstrap-one-page-wonder",
-    "version": "5.0.8",
+    "title": "Portfolio",
+    "name": "elise hoovler",
+    "version": "5.0.1",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
@@ -14,19 +14,10 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/one-page-wonder",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder.git"
+        "url": "https://github.com/ejhoovler/myportfolio.git"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
