@@ -17,7 +17,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ejhoovler/myportfolio"
+        "url": "https://github.com/ejhoovler/myportfolio.git"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
