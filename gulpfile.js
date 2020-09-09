@@ -5,6 +5,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const browsersync = require("browser-sync").create();
 const cleanCSS = require("gulp-clean-css");
 const del = require("del");
+const gulp = require("gulp");
 const connect = require('gulp-connect');
 const open = require('gulp-open');
 const header = require("gulp-header");
