@@ -13,6 +13,8 @@ const merge = require("merge-stream");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
+const exec = require('child_process').exec;
+const execSync = require('child_process').execSync;
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -93,10 +95,31 @@ function watchFiles() {
   gulp.watch("./**/*.html", browserSyncReload);
 }
 
+// Commit and push files to Git
+function git(done) {
+  return exec('git add . && git commit -m "netlify deploy" && git push');
+  done();
+}
+
+// Watch for Netlify deployment
+function netlify(done) {
+  return new Promise(function(resolve, reject) {
+    console.log(execSync('netlify watch').toString());
+    resolve();
+  });
+}
+
+// Preview deployment
+function netlifyOpen(done) {
+  return exec('netlify open:site');
+  done();
+}
+
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
 const build = gulp.series(vendor, css);
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
+const deploy = gulp.series(git, netlify, netlifyOpen);
 
 // Export tasks
 exports.css = css;
