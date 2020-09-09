@@ -1,6 +1,6 @@
 {
     "title": "Portfolio",
-    "name": "elise hoovler",
+    "name": "ejhoovler",
     "version": "5.0.1",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
