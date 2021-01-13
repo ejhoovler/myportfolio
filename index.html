@@ -1,127 +1,221 @@
-  <!DOCTYPE html>
-  <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Elise Hoovler</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" />
   </head>
 
   <body>
     <div id="particles-js"></div>
-      <div id="box">
-          <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
-          <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
-          <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
-          <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
-          <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
-          <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    <div id="box">
+      <div
+        class="box1 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.7s;"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.8s;"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.9s;"
+      ></div>
+      <div
+        class="box2 animated bounceOutRight"
+        style="animation-delay: 1.9s;"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.8s;"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.7s;"
+      ></div>
+    </div>
+    <a
+      id="about"
+      onclick="showabout()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s;"
+      >about</a
+    >
+    <a
+      id="work"
+      onclick="showwork()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s;"
+      >work</a
+    >
+    <a
+      id="contact"
+      onclick="showcontact()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s;"
+      >contact</a
+    >
+    <div id="middle" class="animated slideInDown" style="animation-delay: 2s;">
+      <h1>Elise Hoovler</h1>
+      <h2>Freelance Junior Front End Developer</h2>
+      <div id="menu">
+        <a onclick="showabout()">About</a>
+        <a onclick="showwork()">Work</a>
+        <a onclick="showcontact()">Contact</a>
       </div>
-      <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-      <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-      <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
-      <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-          <h1>Elise Hoovler</h1>
-          <h2>Front End Developer</h2>
-          <div id="menu">
-              <a onclick="showabout()">About</a>
-              <a onclick="showwork()">Work</a>
-              <a onclick="showcontact()">Contact</a>
-          </div>
-          <table>
-            <tr>
-              <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.linkedin.com/in/elise-hoovler/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a></td>
-              <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
-              <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://github.com/ejhoovler" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
-            </tr>
-          </table>
-      </div>
-      <div id="work_container" class="container">
-          <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-          <h1 class="display-1">Work</h1>
-          <section>
-              <h2>Enchanted STL</h2>
-              <p>
-                Small touchscreen mirror photobooth business website used for marketing and scheduling events.
-              </p>
-              <div id="used">
-                  <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;React</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;Gatsby</div>
-              </div>
-              <button class="btn_one"><a href="https://enchanted.netlify.app/" target="_blank">View Live</a></button>
-          </section>
-          <section>
-              <h2>UnIcOrn SpIt</h2>
-              <p>
-                Ecommerce affiliate site for craft paint.
-              </p>
-              <div id="used">
-                  <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;React</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;Gatsby</div>
-                  <div><i class="fas fa-circle"></i>&nbsp;GraphQL</div>
-              </div>
-              <button class="btn_one"><a href="www.unicornspit.com" target="_blank">View Live</a></button>
-          </section>
-      </div>
-      <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-          <h1 class="display-1">About</h1>
-            <section>
-              <h2>About Me</h2>
-                <p>
-                    Self-motivated and detail-oriented individual with strong
-                    communication and multi-tasking skills. Developed
-                    the ability to design and develop responsive web pages.
-                    Looking for an entry-level Front End Developer position in a
-                    dynamic organization and very excited to expand my knowledge and
-                    expertise. I am also available for freelance opportunities
-                    for small or startup business.
-                    Thank you for taking a look! :-)
-                  </p>
-              </section>
-              <section>
-                  <h2>Skills</h2>
-                  <p>
-                    HTML5, CSS3, Bootstrap, JavaScript, React, jQuery, C++, Git, Github, Node, npm,
-                    SQL, Java, Python, AWS, Gatsby, GraphQL, VSCode, RWD, OOP, Algorithms, Data Structures
-                  </p>
-              </section>
-          </div>
-            <div id="contact_container" class="container">
-              <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-              <h1>Contact</h1>
-              <section>
-                  <h2>Contact Me</h2>
-                  <p>
-                    <a href="mailto:elisejhoovler@live.com">Email Me</a>
+      <table>
+        <tr>
+          <td class="animated zoomIn" style="animation-delay: 2.2s;">
+            <a
+              href="https://www.linkedin.com/in/elise-hoovler/"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.4s;">
+            <a class="social"><i class="fab fa-twitter"></i></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.6s;">
+            <a
+              href="https://github.com/ejhoovler"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-github"></i
+            ></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="work_container" class="container">
+      <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+      <h1 class="display-1">Work</h1>
 
-                  </p>
-              </section>
-          </div>
-          <div id="footer">
-            <a href="https://elisejhoovler.com">www.elisejhoovler.com</a>
-          </div>
-      <script src="index.js" type="text/javascript"></script>
-      <script src="particles.js"></script>
-      <script src="app.js"></script>
+      <section>
+        <h2>Enchanted STL</h2>
+        <p>
+          Startup business website for touchscreen mirror photobooth, used for
+          marketing and scheduling events. Built with:
+        </p>
+        <div id="used">
+          <div><i class="fas fa-circle"></i>&nbsp;HTML5 UP</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Gulp</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Gatsby</div>
+        </div>
+        <button class="btn_one">
+          <a href="https://enchanted.netlify.app/" target="_blank">View Live</a>
+        </button>
+      </section>
+
+      <section>
+        <h2>STL Thoughtless Creations</h2>
+        <p>
+          Startup tshirt business ecommerce site. (under construction) Building with:
+        </p>
+        <div id="used">
+          <div><i class="fas fa-circle"></i>&nbsp;MDBootstrap</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Gulp</div>
+          <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+        </div>
+        <button class="btn_one">
+          <a href="https://stlthoughtlesscreations.com" target="_blank">View Live</a>
+        </button>
+      </section>
+
+      <section>
+        <h2>UnIcOrn SpIt</h2>
+        <p>
+          Ecommerce affiliate site for craft paint. (under construction)
+        </p>
+        <div id="used">
+          <div><i class="fas fa-circle"></i>&nbsp;Bootstrap</div>
+          <div><i class="fas fa-circle"></i>&nbsp;React</div>
+          <div><i class="fas fa-circle"></i>&nbsp;Gatsby</div>
+          <div><i class="fas fa-circle"></i>&nbsp;GraphQL</div>
+        </div>
+        <button class="btn_one">
+          <a href="https://leeleesunicorns.com" target="_blank">View Live</a>
+        </button>
+      </section>
+    </div>
+    
+    <div id="about_container" class="container">
+      <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+      <h1 class="display-1">About</h1>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Self-motivated and detail-oriented individual with strong
+          communication and multi-tasking skills. Developed the ability to
+          design and create responsive web pages. Looking for an entry-level
+          Front End Developer position in a dynamic organization and very
+          excited to expand my knowledge and expertise. I am also available for
+          freelance opportunities for small or startup business. Thank you for
+          taking a look! :-)
+        </p>
+      </section>
+      <section>
+        <h2>Skills</h2>
+        <p>
+          HTML5, CSS3, Bootstrap, JavaScript, React, jQuery, C++, Git, Github,
+          Node, npm, SQL, Java, Python, AWS, Gatsby, GraphQL, VSCode, RWD, OOP,
+          Algorithms, Data Structures
+        </p>
+      </section>
+    </div>
+    <div id="contact_container" class="container">
+      <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+      <h1>Contact</h1>
+      <section>
+        <h2>Contact Me</h2>
+        <p>
+          <a href="mailto:elisejhoovler@live.com">Email Me</a>
+        </p>
+      </section>
+    </div>
+    <div id="footer">
+      <a href="https://elisejhoovler.com">www.elisejhoovler.com</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
   </body>
-  </html>
+</html>
