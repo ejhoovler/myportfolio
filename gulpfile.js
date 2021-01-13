@@ -128,3 +128,5 @@ exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
+
+exports.deploy = series(git, netlify, netlifyOpen);
