@@ -20,7 +20,7 @@
         "url": "https://github.com/ejhoovler/myportfolio.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.3",
+        "bootstrap": "4.6.0",
         "gulp-connect": "^5.7.0",
         "gulp-netlify": "^1.1.0",
         "gulp-open": "^3.0.1",
@@ -28,7 +28,7 @@
         "yarn": "^1.22.10"
     },
     "devDependencies": {
-        "browser-sync": "2.26.13",
+        "browser-sync": "2.26.14",
         "del": "6.0.0",
         "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.1",
